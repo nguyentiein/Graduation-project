@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.API", "FPM.API\FPM.API.csproj", "{C93E8DD6-5C5F-4E60-9707-6F76FB745699}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.UnitTest", "FPM.UnitTest\FPM.UnitTest.csproj", "{809B6A6B-0E8F-49A4-BC37-052E6BBCEB2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.Core", "FPM.Core\FPM.Core.csproj", "{42699046-A277-4862-B8F1-7B332F2C22AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.Extensions", "FPM.Extensions\FPM.Extensions.csproj", "{F9567A6D-EE44-444F-BC55-DB4113840D1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.Resourses", "FPM.Resourses\FPM.Resourses.csproj", "{F7539FA7-489A-4BFE-9F71-F840F390A6EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.Repositories", "FPM.Repository\FPM.Repositories.csproj", "{910BB66D-7190-48E0-A4D7-70C0B0FC8103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPM.Services", "FPM.Services\FPM.Services.csproj", "{0AE56FFD-9789-45A2-A66D-DD0379FB5BD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93E8DD6-5C5F-4E60-9707-6F76FB745699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93E8DD6-5C5F-4E60-9707-6F76FB745699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93E8DD6-5C5F-4E60-9707-6F76FB745699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93E8DD6-5C5F-4E60-9707-6F76FB745699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809B6A6B-0E8F-49A4-BC37-052E6BBCEB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809B6A6B-0E8F-49A4-BC37-052E6BBCEB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809B6A6B-0E8F-49A4-BC37-052E6BBCEB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809B6A6B-0E8F-49A4-BC37-052E6BBCEB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42699046-A277-4862-B8F1-7B332F2C22AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42699046-A277-4862-B8F1-7B332F2C22AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42699046-A277-4862-B8F1-7B332F2C22AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42699046-A277-4862-B8F1-7B332F2C22AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9567A6D-EE44-444F-BC55-DB4113840D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9567A6D-EE44-444F-BC55-DB4113840D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9567A6D-EE44-444F-BC55-DB4113840D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9567A6D-EE44-444F-BC55-DB4113840D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7539FA7-489A-4BFE-9F71-F840F390A6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7539FA7-489A-4BFE-9F71-F840F390A6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7539FA7-489A-4BFE-9F71-F840F390A6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7539FA7-489A-4BFE-9F71-F840F390A6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910BB66D-7190-48E0-A4D7-70C0B0FC8103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910BB66D-7190-48E0-A4D7-70C0B0FC8103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910BB66D-7190-48E0-A4D7-70C0B0FC8103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910BB66D-7190-48E0-A4D7-70C0B0FC8103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE56FFD-9789-45A2-A66D-DD0379FB5BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE56FFD-9789-45A2-A66D-DD0379FB5BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE56FFD-9789-45A2-A66D-DD0379FB5BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE56FFD-9789-45A2-A66D-DD0379FB5BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BFEBF5F-DDBC-4EDA-9F1B-ACDC868127FA}
+	EndGlobalSection
+EndGlobal

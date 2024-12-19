@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="DTOs\Document\**" />
+		<Compile Remove="DTOs\ITopicDocument\**" />
+		<EmbeddedResource Remove="DTOs\Document\**" />
+		<EmbeddedResource Remove="DTOs\ITopicDocument\**" />
+		<None Remove="DTOs\Document\**" />
+		<None Remove="DTOs\ITopicDocument\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+	</ItemGroup>
+
+
+  
+</Project>

@@ -1,0 +1,33 @@
+{
+  "ResponseMessage": {
+    "Values": {
+      "98": "Dữ liệu không hợp lệ",
+      "99": "Lỗi hệ thống.",
+      "200": "Thành công",
+      "209": "Tạo thất bại.",
+      "210": "Xoá thất bại",
+      "211": "Không có dữ liệu",
+
+      "212": "Bản ghi không tồn tại",
+      "213": "Không tìm thấy dữ liệu",
+      "214": "Id không tồn tại",
+      "215": "Token bị hạn chế truy cập",
+      "216": "Token hết hạn",
+      "217": "Lỗi gửi mail tài khoản người dùng",
+      "223": "IdSegment không tồn tại",
+      "227": "Dữ liệu không hợp lệ",
+      "228": "Có lỗi ở lưu file",
+      "229": "Refresh-Token không hợp lệ",
+      "230": "Thông tin đăng nhập không chính xác",
+      "231": "Tài khoản bị hạn chế truy cập",
+      "233": "Tài khoản đã tồn tại",
+      "234": "Mật khẩu cũ không chính xác",
+      "236": "Topic không hợp lệ",
+      "237": "Không hợp lệ",
+      "239": "Cập nhật thất bại",
+      "245": "Mất kết nối đường truyền hoặc đường truyền quá chậm",
+      "300": "Hệ thống đang nâng cấp",
+      "401": "Unauthorized"
+    }
+  }
+}
